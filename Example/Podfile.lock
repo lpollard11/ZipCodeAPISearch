@@ -1,7 +1,13 @@
 PODS:
-  - ZipCodeAPISearch (0.1.0)
+  - Alamofire (4.3.0)
+  - Gloss (1.2.0)
+  - ZipCodeAPISearch (0.1.0):
+    - Alamofire (~> 4.3.0)
+    - Gloss (~> 1.2.0)
 
 DEPENDENCIES:
+  - Alamofire (= 4.3.0)
+  - Gloss (= 1.2.0)
   - ZipCodeAPISearch (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZipCodeAPISearch: 50df748fb7454cc733f015dfebfd4387d8c186cd
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Gloss: ec49584b2e8144e39810b6db6285433316e0c1c7
+  ZipCodeAPISearch: e5ac1b41889a749b6620171b4c7c472e5812ae16
 
-PODFILE CHECKSUM: 2dccaba55861ef4105036750ee7844e883310dba
+PODFILE CHECKSUM: e6aa86ed635e1898d475456d0d1d0e0c23860cd1
 
 COCOAPODS: 1.2.0

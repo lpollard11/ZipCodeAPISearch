@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lpollard11/ZipCodeAPISearch.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ZipCodeAPISearch/Classes/**/*'
   
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'Alamofire', '~> 4.3.0'
-  # s.dependency 'Gloss', '~> 1.3.0'
+  s.dependency 'Alamofire', '~> 4.3.0'
+  s.dependency 'Gloss', '~> 1.2.0'
 end

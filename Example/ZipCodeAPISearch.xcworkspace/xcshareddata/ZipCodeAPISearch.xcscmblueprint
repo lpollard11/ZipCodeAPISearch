@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F66B4E1EC8349B89D9C7661ABE2388E523B0BB8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F66B4E1EC8349B89D9C7661ABE2388E523B0BB8" : 9223372036854775807,
+    "D99E603C6DD2A9B157B7BFE561C25B4288B79B13" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "237D7C8A-BD58-4831-9BA1-DA60C1A2FF2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F66B4E1EC8349B89D9C7661ABE2388E523B0BB8" : "ZipCodeAPISearch\/",
+    "D99E603C6DD2A9B157B7BFE561C25B4288B79B13" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZipCodeAPISearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/ZipCodeAPISearch.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lpollard11\/ZipCodeAPISearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F66B4E1EC8349B89D9C7661ABE2388E523B0BB8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/qude\/qude-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D99E603C6DD2A9B157B7BFE561C25B4288B79B13"
+    }
+  ]
+}
