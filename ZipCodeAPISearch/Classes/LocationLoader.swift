@@ -11,11 +11,11 @@ import Gloss
 import Alamofire
 
 /// The LocationLoader performs a location data request using an endpoint constructed with the desired zip code.
-public class LocationLoader {
+open class LocationLoader {
     
-    private var networkingManager: NetworkingProtocol = NetworkingManager()
+    fileprivate var networkingManager: NetworkingProtocol = NetworkingManager()
     
-    private var endPointConstructor: EndpointConstructor
+    fileprivate var endPointConstructor: EndpointConstructor
     
     /// Initializes the LocationLoader with the required data to construct the endpoint used to fetch the location.
     ///
@@ -32,10 +32,10 @@ public class LocationLoader {
     /// - Parameters:
     ///   - zipCode: Zip code string used in the fetch.
     ///   - completion: Completion block to be fired when the network call finishes.
-    public func loadLocation(zipCode: String, completion: @escaping (_ location: Location?, _ error: Error?) -> ()) {
-        let endPoint = endPointConstructor.zipCodeEndpoint(zipCode: zipCode)
+    open func loadLocation(_ zipCode: String, completion: @escaping (_ location: Location?, _ error: Error?) -> ()) {
+        let endPoint = endPointConstructor.zipCodeEndpoint(zipCode)
         
-        networkingManager.request(endPoint: endPoint) { (response: DataResponse<Any>?, error: Error?) in
+        networkingManager.request(endPoint) { (response: DataResponse<Any>?, error: Error?) in
             guard error == nil else {
                 completion(nil, error)
                 return

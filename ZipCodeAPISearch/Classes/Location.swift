@@ -10,7 +10,7 @@ import Foundation
 import Gloss
 
 /// The Location object contains all the data returned by the ZipCodeAPI.
-public class Location: NSObject, Decodable {
+open class Location: NSObject, Decodable {
     
     /// Zip code of the location.
     var zipCode: String?

@@ -10,7 +10,7 @@ import Foundation
 import Gloss
 
 /// The TimeZone Gloss object contains time zone data.
-public class TimeZone: Decodable {
+open class TimeZone: Decodable {
     
     /// Time zone identifier. Ex: "America/New_York".
     var timezoneIdentifier: String?

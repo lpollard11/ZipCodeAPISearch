@@ -10,7 +10,7 @@ import Foundation
 import Gloss
 
 /// The City object contains city data of the location.
-public class City: Decodable {
+open class City: Decodable {
     
     /// City name of the city object. Ex: "Manhattan"
     var city: String?

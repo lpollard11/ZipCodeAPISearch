@@ -121,8 +121,8 @@
 		2A63FAB42B29810E6ECCD83C3D42EFC7 /* EndpointConstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndpointConstructor.swift; sourceTree = "<group>"; };
 		2E34C3E1CE5E21280F55414ADE5A4402 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		2FC383DCCCED228A07976092E276E3E3 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		3091527D6B81101DD0C61979B5987ED0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		321087E3518BCFDE45202703FCEABF15 /* Pods-ZipCodeAPISearch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZipCodeAPISearch_Example.modulemap"; sourceTree = "<group>"; };
+		3091527D6B81101DD0C61979B5987ED0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		321087E3518BCFDE45202703FCEABF15 /* Pods-ZipCodeAPISearch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZipCodeAPISearch_Example.modulemap"; sourceTree = "<group>"; };
 		33F97F3D726C6C12E958CF1D1192FCF4 /* NetworkingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		3470C37ECAA5E881A02F7A231399DC05 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
 		371201E0D397329B28372D0199773521 /* Pods-ZipCodeAPISearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZipCodeAPISearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -137,18 +137,18 @@
 		54F50B30A26F9E67F1B5B8ADFC2BE8B2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		5546FE945590D731B3C51E6CDB2AFEC7 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		55A20B71B53247CC51FEAEB9A58EFE1F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		593EEBC2F1072116B49D32FFA709AA4F /* Pods_ZipCodeAPISearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZipCodeAPISearch_Tests.framework; path = "Pods-ZipCodeAPISearch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB351E199612DCD1FBEAA03FF0211EF /* Pods-ZipCodeAPISearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZipCodeAPISearch_Tests.modulemap"; sourceTree = "<group>"; };
+		593EEBC2F1072116B49D32FFA709AA4F /* Pods_ZipCodeAPISearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipCodeAPISearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB351E199612DCD1FBEAA03FF0211EF /* Pods-ZipCodeAPISearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZipCodeAPISearch_Tests.modulemap"; sourceTree = "<group>"; };
 		5F389DDB8996EBC96040A1AD340E6047 /* Pods-ZipCodeAPISearch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZipCodeAPISearch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		60A13281C577863699116844E2462E57 /* Pods-ZipCodeAPISearch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZipCodeAPISearch_Example-dummy.m"; sourceTree = "<group>"; };
 		6805F8CD483AEC4E1BAF7FB87A08D177 /* ZipCodeAPISearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipCodeAPISearch-prefix.pch"; sourceTree = "<group>"; };
-		6C2244D504B55D9C5EB6365014E580E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2244D504B55D9C5EB6365014E580E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE6C9C589E567B1268F69F41B01E211 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		7AED0DBDAD0774CA76069DDAD39F2F5B /* City.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		7B75A75AC8B3000481D358423278382F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		7B7B347DD3AF7F41554AFA8A3B705220 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		871AB4FDF9DEC8CC69EE498BC26F1D2C /* Pods_ZipCodeAPISearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZipCodeAPISearch_Example.framework; path = "Pods-ZipCodeAPISearch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		871AB4FDF9DEC8CC69EE498BC26F1D2C /* Pods_ZipCodeAPISearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipCodeAPISearch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CB9BBACC1DA4B1131E7BC0167651731 /* ExtensionArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionArray.swift; path = Sources/ExtensionArray.swift; sourceTree = "<group>"; };
 		9CCAF5BB8197F097AAABF25472EA46CD /* Gloss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gloss.swift; path = Sources/Gloss.swift; sourceTree = "<group>"; };
 		9D126A1F0994DABEE15B493AEC53570B /* Pods-ZipCodeAPISearch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZipCodeAPISearch_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		AE655FA69C9EF5E94FEA1CF91D26CC95 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		B00ABA80FF682B7931463E50EFE33FDD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		B19A920EEF7B71686C468188B302043F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B1E20BF7D2C801148DECD8E5032DC854 /* ZipCodeAPISearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZipCodeAPISearch.modulemap; sourceTree = "<group>"; };
+		B1E20BF7D2C801148DECD8E5032DC854 /* ZipCodeAPISearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZipCodeAPISearch.modulemap; sourceTree = "<group>"; };
 		B5638E5A9E336AC7F586CCBF07ED1889 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		B7C459C8137AC172C6EC0FD15680DA9B /* ExtensionDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionDictionary.swift; path = Sources/ExtensionDictionary.swift; sourceTree = "<group>"; };
 		B88521234DDDB9B2214CAFE72A3B6D0F /* Pods-ZipCodeAPISearch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZipCodeAPISearch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		B986941D0ED20C8D85E2F321CA5176D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0155B7DC85C682A867D618CDE571693 /* Pods-ZipCodeAPISearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZipCodeAPISearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C89E7FAD44B5F6F50D257C0805A7C173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB169ECE78760E1B4ADB8B3D81073C04 /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Gloss.modulemap; sourceTree = "<group>"; };
+		CB169ECE78760E1B4ADB8B3D81073C04 /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gloss.modulemap; sourceTree = "<group>"; };
 		CB370CB2DB83E918B45B16BF4F0C743E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C2BBA1F5FB8E5E5BBD7B7038A498E6 /* Gloss.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gloss.xcconfig; sourceTree = "<group>"; };
 		DC52718B570B92F236CC6807177EF3F0 /* ZipCodeAPIManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZipCodeAPIManagerDelegate.swift; sourceTree = "<group>"; };
@@ -180,10 +180,10 @@
 		F4B8863D44E98AB53615470FBB609C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DF725FCB4CDE802C71FD26C5C9347F /* LocationLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationLoader.swift; sourceTree = "<group>"; };
 		F6E79AA2C2AA8DBAC2BBB2E5664FD905 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
-		F798CD25AD4E41056CA71E42159D5B38 /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gloss.framework; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798CD25AD4E41056CA71E42159D5B38 /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA72AABFB204E481906B24DB6EFDED80 /* Pods-ZipCodeAPISearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZipCodeAPISearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA868A3F9E329451D04B17705BD8DB84 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		FF1588A87E034B6F06D594545F551496 /* ZipCodeAPISearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZipCodeAPISearch.framework; path = ZipCodeAPISearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1588A87E034B6F06D594545F551496 /* ZipCodeAPISearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipCodeAPISearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,7 +270,6 @@
 			children = (
 				ABC7C95D3D481A23D9E3C197C9EE72A4 /* Classes */,
 			);
-			name = ZipCodeAPISearch;
 			path = ZipCodeAPISearch;
 			sourceTree = "<group>";
 		};
@@ -327,7 +326,6 @@
 				F6E79AA2C2AA8DBAC2BBB2E5664FD905 /* Operators.swift */,
 				658187BCCAEC1288988FD57F9FAE2DAD /* Support Files */,
 			);
-			name = Gloss;
 			path = Gloss;
 			sourceTree = "<group>";
 		};
@@ -382,7 +380,6 @@
 				453756080287AADF2D5E91CD3742D839 /* ZipCodeAPIManager.swift */,
 				DC52718B570B92F236CC6807177EF3F0 /* ZipCodeAPIManagerDelegate.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -435,7 +432,6 @@
 				B19A920EEF7B71686C468188B302043F /* Validation.swift */,
 				0A342020A40959B9DE47EAF5B682B0F8 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -604,6 +600,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8C3F6FD6D6EAA3720BAD138779CC0FA9 = {
+						LastSwiftMigration = 0820;
+					};
+					CB89490F1A18C5ABB145250B2803A756 = {
+						LastSwiftMigration = 0820;
+					};
+					D3C91B253C5FAE4C693BBE7340C00A4E = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";

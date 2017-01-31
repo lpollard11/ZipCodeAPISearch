@@ -11,12 +11,12 @@ import UIKit
 
 /// The ZipCodeAPIManager performs a location search with the incoming zip code using the public API called ZipCodeApi.
 /// It also calls a delegate method to handle the result of the fetch which is a Gloss model.
-public class ZipCodeAPIManager: NSObject {
+open class ZipCodeAPIManager: NSObject {
     
     /// The delegate object that another object or view controller can use to respond to the result of the location fetch.
-    public weak var delegate: ZipCodeAPIManagerDelegate!
+    open weak var delegate: ZipCodeAPIManagerDelegate!
     
-    private var locationLoader: LocationLoader
+    fileprivate var locationLoader: LocationLoader
     
     /// Initializes the ZipCodeAPIManager with the incoming necessary data for a network call to the ZipCodeApi.
     ///
@@ -34,9 +34,9 @@ public class ZipCodeAPIManager: NSObject {
     /// then handles the result of the location fetch.
     ///
     /// - Parameter zipCode: Zip code string.
-    public func searchZipCode(zipCode: String) {
-        locationLoader.loadLocation(zipCode: zipCode) { [weak self] (location: Location?, error: Error?) in
-            self?.delegate.handleZipCodeResult(location: location, error: error)
+    open func searchZipCode(_ zipCode: String) {
+        locationLoader.loadLocation(zipCode) { [weak self] (location: Location?, error: Error?) in
+            self?.delegate.handleZipCodeResult(location, error: error)
         }
     }
 }

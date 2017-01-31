@@ -15,5 +15,5 @@ import Foundation
     /// - Parameters:
     ///   - location: Location object with location data from zip code search.
     ///   - error: Error object from zip code search.
-    func handleZipCodeResult(location: Location?, error: Error?)
+    func handleZipCodeResult(_ location: Location?, error: Error?)
 }

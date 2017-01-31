@@ -16,5 +16,5 @@ public protocol NetworkingProtocol {
     /// - Parameters:
     ///   - endPoint: Endpoint used in request.
     ///   - completion: Completion to be fired at end of network call.
-    func request(endPoint: String, completion: @escaping (_ response: DataResponse<Any>?, _ error: Error?) -> ())
+    func request(_ endPoint: String, completion: @escaping (_ response: DataResponse<Any>?, _ error: Error?) -> ())
 }
