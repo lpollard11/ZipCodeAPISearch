@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZipCodeAPISearch_Example' do
+  pod 'ZipCodeAPISearch', :path => '../'
+
+  target 'ZipCodeAPISearch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
