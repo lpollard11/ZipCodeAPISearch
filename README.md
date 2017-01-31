@@ -22,7 +22,7 @@ pod "ZipCodeAPISearch"
 
 ## Author
 
-lpollard11, tjdet11@gmail.com
+Lee Pollard
 
 ## License
 
