@@ -1,0 +1,16 @@
+PODS:
+  - ZipCodeAPISearch (0.1.0)
+
+DEPENDENCIES:
+  - ZipCodeAPISearch (from `../`)
+
+EXTERNAL SOURCES:
+  ZipCodeAPISearch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZipCodeAPISearch: 50df748fb7454cc733f015dfebfd4387d8c186cd
+
+PODFILE CHECKSUM: 2dccaba55861ef4105036750ee7844e883310dba
+
+COCOAPODS: 1.2.0

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZipCodeAPISearch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZipCodeAPISearch.'
+  s.summary          = 'ZipCodeAPISearch returns location for a zip code using the ZipCodeAPI.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'ZipCodeAPISearch provides a lightweight framework that performs a network call to fetch location data using a zip code from the public ZipCodeAPI. It makes use of the Alamofire for the network requst and Gloss to serialize the JSON data into working models.'
 
-  s.homepage         = 'https://github.com/lpollard11/ZipCodeAPISearch'
+
+  s.homepage         = 'https://github.com/lpollard11/ZipCodeAPISearch.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lpollard11' => 'tjdet11@gmail.com' }
-  s.source           = { :git => 'https://github.com/lpollard11/ZipCodeAPISearch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lpollard11/ZipCodeAPISearch.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +36,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  # s.dependency 'Alamofire', '~> 4.3.0'
+  # s.dependency 'Gloss', '~> 1.3.0'
 end
