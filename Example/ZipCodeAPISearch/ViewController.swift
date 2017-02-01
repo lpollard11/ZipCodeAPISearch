@@ -18,20 +18,31 @@ class ViewController: UIViewController {
     
     internal var searchText = ""
     
-    // Check zipcodeapi.com for a temporary key.
-    private var zipCodeAPIManager = ZipCodeAPIManager(apiKey: "bIoG88J8861TUkdBBz9KmBbqX58EeUTqCi6KrPTAWUtQfGsQfBBCdN2aTbO76IyI",
-                                                      responseFormat: .json,
-                                                      units: .degrees)
+    private var zipCodeAPIManager: ZipCodeAPIManagerProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        zipCodeAPIManager.delegate = self
+        setupZipCodeAPIManager()
+    }
+    
+    private func setupZipCodeAPIManager() {
+        zipCodeAPIManager = ZipCodeAPIManager(locationLoader: locationLoader())
+        zipCodeAPIManager?.delegate = self
+    }
+    
+    private func locationLoader() -> LocationLoaderProtocol {
+        // Use temporary or client API key from zipcodeapi.com
+        let endPointConstructor: EndpointConstructionProtocol = EndpointConstructor(responseFormat: .json,
+                                                                                    units: .degrees,
+                                                                                    apiKey: "bIoG88J8861TUkdBBz9KmBbqX58EeUTqCi6KrPTAWUtQfGsQfBBCdN2aTbO76IyI")
+        let networkingManager : NetworkingProtocol = NetworkingManager()
+        return LocationLoader(endPointConstructor: endPointConstructor, networkingManager: networkingManager)
     }
     
     private func fetchLocation() {
         activityIndicator.startAnimating()
-        zipCodeAPIManager.searchZipCode(searchText)
+        zipCodeAPIManager?.searchZipCode(searchText)
     }
     
     @IBAction private func searchButtonTapped(sender: UIButton) {
@@ -69,5 +80,3 @@ extension ViewController: UITextFieldDelegate {
         return true
     }
 }
-
-

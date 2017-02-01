@@ -12,6 +12,10 @@ import Alamofire
 /// The NetworkingManager performs a general network call using the Alamofire library.
 open class NetworkingManager: NetworkingProtocol {
     
+    public init() {
+    
+    }
+    
     /// Performs an Alamofire network request using the incoming parameters.
     ///
     /// - Parameters:

@@ -11,20 +11,20 @@ import Gloss
 import Alamofire
 
 /// The LocationLoader performs a location data request using an endpoint constructed with the desired zip code.
-open class LocationLoader {
+open class LocationLoader: LocationLoaderProtocol {
     
-    fileprivate var networkingManager: NetworkingProtocol = NetworkingManager()
+    public var networkingManager: NetworkingProtocol
     
-    fileprivate var endPointConstructor: EndpointConstructor
+    public var endPointConstructor: EndpointConstructionProtocol
     
-    /// Initializes the LocationLoader with the required data to construct the endpoint used to fetch the location.
+    /// Initializes the LocationLoader with the required objects.
     ///
     /// - Parameters:
-    ///   - responseFormat: Response format that can either be JSON, XML, or CSV.
-    ///   - units: Type of distance from the desired zip code that can either be degrees or radians.
-    ///   - apiKey: Api Key used to authenticate the network request.
-    init(responseFormat: String, units: String, apiKey: String) {
-        endPointConstructor = EndpointConstructor(responseFormat: responseFormat, units: units, apiKey: apiKey)
+    ///   - endPointConstructor: Endpoint Constructor object.
+    ///   - networkingManager: Network Manager object.
+    public init(endPointConstructor: EndpointConstructionProtocol, networkingManager: NetworkingProtocol) {
+        self.endPointConstructor = endPointConstructor
+        self.networkingManager = networkingManager
     }
     
     /// Performs a network call using the networking manager to fetch location data from an incoming zip code.

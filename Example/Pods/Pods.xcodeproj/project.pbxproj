@@ -29,6 +29,9 @@
 		45BFFF6D6EB9323A0CF253FB8F700D09 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A818CD40F554E10CACA647272943336A /* Operators.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		527725C7C34A20DD25FFC71CE235108E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218856ED642E13AB9CD6B3F287EFAF0F /* City.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		58812AABBC0A1E7AE019752424DF31A7 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C675F05DAF17EB0C1B3F65F4A4B70 /* MultipartFormData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		59017C151E415512002C5F7B /* EndpointConstructorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59017C111E414AC5002C5F7B /* EndpointConstructorProtocol.swift */; };
+		59017C181E41563A002C5F7B /* LocationLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59017C161E415624002C5F7B /* LocationLoaderProtocol.swift */; };
+		59017C1B1E41582B002C5F7B /* ZipCodeAPIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59017C191E415818002C5F7B /* ZipCodeAPIManagerProtocol.swift */; };
 		5E25BCD30BDE2E7A68D1A6FAF7253AD4 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4215FF9DE7E2442389897BB652A11 /* DispatchQueue+Alamofire.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		64EECEE0ACA913D4ADAAFE451B5AB265 /* Gloss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8903BC72EFAFA6CFF6E7AB6E16EE12 /* Gloss-dummy.m */; };
 		6540CC4D369A32F6DE54AFA8D5D6FAF9 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB90AB6B0518E2A42A9AAD03DE05DB2 /* Alamofire-dummy.m */; };
@@ -108,7 +111,7 @@
 		0A8C83048773CB9F853F7B6003FD5874 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		0B93E6BFA39A2568D6652035AA1AE0EA /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		12388024EC2FF9F641B1AB7A8F8E5FFB /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		123BE279907F22D1B9CBFF51191F5D92 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		123BE279907F22D1B9CBFF51191F5D92 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		15412E3FDA5756EB59BEC8267F33DF2C /* ZipCodeAPIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipCodeAPIManager.swift; path = ZipCodeAPISearch/Classes/ZipCodeAPIManager.swift; sourceTree = "<group>"; };
 		1A02F785C0AFE58F8875F32FEB78111B /* ResponseFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseFormat.swift; path = ZipCodeAPISearch/Classes/ResponseFormat.swift; sourceTree = "<group>"; };
 		1D63EEE6E1A09F3A64C63D0DF2B518EF /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
@@ -120,7 +123,7 @@
 		2B66ED5D6EBC4178BE6D5C54C7C1C563 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/Encoder.swift; sourceTree = "<group>"; };
 		2F855664DD43C85EB3D57B41934195AD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		2FF284EDBDA331AA339F090DC3780AA5 /* ZipCodeAPISearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipCodeAPISearch-umbrella.h"; sourceTree = "<group>"; };
-		321087E3518BCFDE45202703FCEABF15 /* Pods-ZipCodeAPISearch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZipCodeAPISearch_Example.modulemap"; sourceTree = "<group>"; };
+		321087E3518BCFDE45202703FCEABF15 /* Pods-ZipCodeAPISearch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZipCodeAPISearch_Example.modulemap"; sourceTree = "<group>"; };
 		366F4DD84AEE70EAADD82A9116D7AE12 /* ZipCodeAPISearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZipCodeAPISearch-dummy.m"; sourceTree = "<group>"; };
 		371201E0D397329B28372D0199773521 /* Pods-ZipCodeAPISearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZipCodeAPISearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		373709356EDD5769CA1C36E96C56FEA7 /* Pods-ZipCodeAPISearch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZipCodeAPISearch_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,30 +135,33 @@
 		52ED4FBB0B839560FC874757A64F6BB4 /* EndpointConstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointConstructor.swift; path = ZipCodeAPISearch/Classes/EndpointConstructor.swift; sourceTree = "<group>"; };
 		572AF81A6578524DFEF289FC24754385 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkingProtocol.swift; path = ZipCodeAPISearch/Classes/NetworkingProtocol.swift; sourceTree = "<group>"; };
 		589197068B8B928E968A81B8837B57EE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		593EEBC2F1072116B49D32FFA709AA4F /* Pods_ZipCodeAPISearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZipCodeAPISearch_Tests.framework; path = "Pods-ZipCodeAPISearch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB351E199612DCD1FBEAA03FF0211EF /* Pods-ZipCodeAPISearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZipCodeAPISearch_Tests.modulemap"; sourceTree = "<group>"; };
+		59017C111E414AC5002C5F7B /* EndpointConstructorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointConstructorProtocol.swift; sourceTree = "<group>"; };
+		59017C161E415624002C5F7B /* LocationLoaderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationLoaderProtocol.swift; sourceTree = "<group>"; };
+		59017C191E415818002C5F7B /* ZipCodeAPIManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeAPIManagerProtocol.swift; sourceTree = "<group>"; };
+		593EEBC2F1072116B49D32FFA709AA4F /* Pods_ZipCodeAPISearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipCodeAPISearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB351E199612DCD1FBEAA03FF0211EF /* Pods-ZipCodeAPISearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZipCodeAPISearch_Tests.modulemap"; sourceTree = "<group>"; };
 		5EB3E08CCB492EC688E2F7A0500991F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F05E95AD65C841ECBA39BAE6A027E87 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		5F389DDB8996EBC96040A1AD340E6047 /* Pods-ZipCodeAPISearch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZipCodeAPISearch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		60A13281C577863699116844E2462E57 /* Pods-ZipCodeAPISearch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZipCodeAPISearch_Example-dummy.m"; sourceTree = "<group>"; };
 		61C166CF28D49F8BCC6C05E3E34D0D64 /* ExtensionArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionArray.swift; path = Sources/ExtensionArray.swift; sourceTree = "<group>"; };
 		65C7FD4C76F7866F93CB000DB6EBB2BE /* Units.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Units.swift; path = ZipCodeAPISearch/Classes/Units.swift; sourceTree = "<group>"; };
-		6C2244D504B55D9C5EB6365014E580E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2244D504B55D9C5EB6365014E580E6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A99FDD5657458223646FAF098E2E26 /* LocationLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationLoader.swift; path = ZipCodeAPISearch/Classes/LocationLoader.swift; sourceTree = "<group>"; };
 		73A4215FF9DE7E2442389897BB652A11 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		7AF85EE53D01EFF73DA2636A52358555 /* ZipCodeAPISearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipCodeAPISearch-prefix.pch"; sourceTree = "<group>"; };
 		7F95D99F830A95E2EB96B4B04FB06A26 /* Gloss.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gloss.xcconfig; sourceTree = "<group>"; };
 		85ACEECB703DEB94C990A26340B38B40 /* ExtensionDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionDictionary.swift; path = Sources/ExtensionDictionary.swift; sourceTree = "<group>"; };
-		871AB4FDF9DEC8CC69EE498BC26F1D2C /* Pods_ZipCodeAPISearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZipCodeAPISearch_Example.framework; path = "Pods-ZipCodeAPISearch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871AB4FDF9DEC8CC69EE498BC26F1D2C /* Pods_ZipCodeAPISearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipCodeAPISearch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		899749BA7EF4D18FB68089A911431EE3 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		8B966C00E2CBF5777AA3D707C8162E68 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		912C345ED40670DB029B8FB9F5BA9612 /* ZipCodeAPISearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZipCodeAPISearch.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941AE1D36E40636C56F60A01AE64F5F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4878FBA2B52523765E52F758CE18E9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		9D126A1F0994DABEE15B493AEC53570B /* Pods-ZipCodeAPISearch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZipCodeAPISearch_Example-umbrella.h"; sourceTree = "<group>"; };
 		A818CD40F554E10CACA647272943336A /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
-		AA3AE8B263E6F0EC53FD51CD3AC96A59 /* ZipCodeAPISearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZipCodeAPISearch.modulemap; sourceTree = "<group>"; };
+		AA3AE8B263E6F0EC53FD51CD3AC96A59 /* ZipCodeAPISearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZipCodeAPISearch.modulemap; sourceTree = "<group>"; };
 		B03B471F8838E19D7CE791B1BFA6E1DF /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		B19C675F05DAF17EB0C1B3F65F4A4B70 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		B88521234DDDB9B2214CAFE72A3B6D0F /* Pods-ZipCodeAPISearch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZipCodeAPISearch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -165,7 +171,7 @@
 		BF1320DAF7A54AD4194DF6BF988A1573 /* Gloss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gloss.swift; path = Sources/Gloss.swift; sourceTree = "<group>"; };
 		BFED5820F6D9F8EBE8D99472E8181168 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		C0155B7DC85C682A867D618CDE571693 /* Pods-ZipCodeAPISearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZipCodeAPISearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C048CF63373755A7A218B4DA5D90DE2C /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Gloss.modulemap; sourceTree = "<group>"; };
+		C048CF63373755A7A218B4DA5D90DE2C /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gloss.modulemap; sourceTree = "<group>"; };
 		C578149458F7BB96B1D4AB1228F8509A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		C7EA63C604FFA719D1F3DDC3792C3A6A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		C8480D0D55689FF649E3A8137CBE0842 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
@@ -178,12 +184,12 @@
 		F2B6CE9A159BED7AF32320726B46325C /* NetworkingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkingManager.swift; path = ZipCodeAPISearch/Classes/NetworkingManager.swift; sourceTree = "<group>"; };
 		F4B8863D44E98AB53615470FBB609C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F675FBD6905D149122C31C182667B145 /* ExtensionDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionDecodable.swift; path = Sources/ExtensionDecodable.swift; sourceTree = "<group>"; };
-		F798CD25AD4E41056CA71E42159D5B38 /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gloss.framework; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798CD25AD4E41056CA71E42159D5B38 /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92694F38DC22993329BD7ADEB908A41 /* TimeZone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeZone.swift; path = ZipCodeAPISearch/Classes/TimeZone.swift; sourceTree = "<group>"; };
 		FA72AABFB204E481906B24DB6EFDED80 /* Pods-ZipCodeAPISearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZipCodeAPISearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC0FC36B6D9ADCFC539DC8A8F990A657 /* Gloss-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-prefix.pch"; sourceTree = "<group>"; };
 		FD8903BC72EFAFA6CFF6E7AB6E16EE12 /* Gloss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gloss-dummy.m"; sourceTree = "<group>"; };
-		FF1588A87E034B6F06D594545F551496 /* ZipCodeAPISearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZipCodeAPISearch.framework; path = ZipCodeAPISearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1588A87E034B6F06D594545F551496 /* ZipCodeAPISearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipCodeAPISearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +251,6 @@
 				A818CD40F554E10CACA647272943336A /* Operators.swift */,
 				2173F77400D79EC8F4E1BA635437E658 /* Support Files */,
 			);
-			name = Gloss;
 			path = Gloss;
 			sourceTree = "<group>";
 		};
@@ -254,18 +259,20 @@
 			children = (
 				218856ED642E13AB9CD6B3F287EFAF0F /* City.swift */,
 				52ED4FBB0B839560FC874757A64F6BB4 /* EndpointConstructor.swift */,
+				59017C111E414AC5002C5F7B /* EndpointConstructorProtocol.swift */,
 				2A0C472486F787E15DD8CB55CDB59B67 /* Location.swift */,
 				72A99FDD5657458223646FAF098E2E26 /* LocationLoader.swift */,
+				59017C161E415624002C5F7B /* LocationLoaderProtocol.swift */,
 				F2B6CE9A159BED7AF32320726B46325C /* NetworkingManager.swift */,
 				572AF81A6578524DFEF289FC24754385 /* NetworkingProtocol.swift */,
 				1A02F785C0AFE58F8875F32FEB78111B /* ResponseFormat.swift */,
+				974C3C9064CF368BC66E949B6CB53DDD /* Support Files */,
 				F92694F38DC22993329BD7ADEB908A41 /* TimeZone.swift */,
 				65C7FD4C76F7866F93CB000DB6EBB2BE /* Units.swift */,
 				15412E3FDA5756EB59BEC8267F33DF2C /* ZipCodeAPIManager.swift */,
 				072FCDA05558B91B9FD50081D17C31A7 /* ZipCodeAPIManagerDelegate.swift */,
-				974C3C9064CF368BC66E949B6CB53DDD /* Support Files */,
+				59017C191E415818002C5F7B /* ZipCodeAPIManagerProtocol.swift */,
 			);
-			name = ZipCodeAPISearch;
 			path = ZipCodeAPISearch;
 			sourceTree = "<group>";
 		};
@@ -305,7 +312,6 @@
 				589197068B8B928E968A81B8837B57EE /* Validation.swift */,
 				505E8E11E8EFDF22183064CB2554514B /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -666,13 +672,16 @@
 				F6014C5BBB67E86FFC0ACCA4D93DA9C3 /* Location.swift in Sources */,
 				B59117A3326FB7F6E4E9EEA0134AAD5C /* LocationLoader.swift in Sources */,
 				898E90C8D39F05FA1C063C937F781BD0 /* NetworkingManager.swift in Sources */,
+				59017C151E415512002C5F7B /* EndpointConstructorProtocol.swift in Sources */,
 				8AEE9E5833E1E45E436C82D44300615B /* NetworkingProtocol.swift in Sources */,
 				0F32DC98E0B9791EEF6224B57C1FA81A /* ResponseFormat.swift in Sources */,
+				59017C1B1E41582B002C5F7B /* ZipCodeAPIManagerProtocol.swift in Sources */,
 				7314F4B0EE82677F53EE56BDD232CEAB /* TimeZone.swift in Sources */,
 				936DE99D10D552AE757E7205314A2D64 /* Units.swift in Sources */,
 				9CF8D9D649C5F9519575BB8621AF471A /* ZipCodeAPIManager.swift in Sources */,
 				30353D6888DDD4281E262F602FE2003B /* ZipCodeAPIManagerDelegate.swift in Sources */,
 				8D19FC5CBC196B74107674976C5C7792 /* ZipCodeAPISearch-dummy.m in Sources */,
+				59017C181E41563A002C5F7B /* LocationLoaderProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
